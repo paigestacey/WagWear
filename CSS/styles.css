@@ -2,8 +2,9 @@
 /*Nav*/
 nav {
   background-color: #eeecd9;
-  padding: 10px;
+  padding: 20px;
   border-bottom: #000000;
+  margin: 0;
 }
 
 nav ul {
@@ -16,13 +17,14 @@ nav ul {
 nav ul li {
   display: inline;
   margin-right: 50px;
+  padding: 0;
 }
 
 nav ul li a {
   color: rgb(28, 32, 1);
   text-decoration: none;
-  font-family: "Gloria Hallelujah";
-  font-size: 40px;
+  font-family: "Rubik Mono One";
+  font-size: 30px;
 }
 
 nav ul li a:hover {
@@ -33,16 +35,15 @@ nav ul li a:hover {
 /*Hero*/
 .header-container {
 background-color: #f5f4ed;
-min-height: 250px;
-border-radius: 6px;
+margin: 0;
+padding: 10px
 }
 
 h1 {
   padding: 0;
-  padding-top: 15px;
   margin: 0;
     text-align: center;
-    font-family:"Rubik Mono One", monospace;
+    font-family:"Gloria Hallelujah";
     font-size: 90px;
 }
 
@@ -50,41 +51,36 @@ h3 {
     text-align: center;
     font-family: "Rubik Mono One", monospace;
     font-size: x-large;
+    padding-bottom: 10px;
 }
 /*Cards*/
 
-/*Accordian*/
+/*Accordion*/
 .button {
     background-color: #f5f5f2;
     font-family: "Rubik Mono One", monospace;
     height: 80px;
     border-radius: 20px;
     border-color: #cecec8;
-    color: #000000;
     cursor: pointer;
     width: 100%;
     padding-left: 15px;
     text-align: left;
     font-size: medium;
-    display: block;
   }
 
-  .accordian {
-   display: block;
-  }
-
-  .button:hover {
+ .button:hover {
     background-color: #c9c9c8;
   }
-  
+
   .panel {
-    padding: 0;
-    margin: 10px;
-    font-size: x-large;
+    display: none;
+    padding: 10px;
+    font-size: large;
     font-family: "Gloria Hallelujah";
   }
 
-  .panel-active {
+  .panel.active {
     display: block;
   }
   
@@ -92,9 +88,15 @@ h3 {
   .footer-container {
     background-color: #f5f5f3;
     display: flex;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Rubik Mono One", monospace;
     font-optical-sizing: auto;
-    font-style: medium;
+    font-style: small;
+  }
+
+  h2 {
+    margin: 0;
+    font-family: "Gloria Hallelujah";
+    font-size: xxx-large;
   }
   
   .footer-content {
