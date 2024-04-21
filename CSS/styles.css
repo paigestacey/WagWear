@@ -22,7 +22,7 @@ nav ul li a {
   color: rgb(28, 32, 1);
   text-decoration: none;
   font-family: "Gloria Hallelujah";
-  font-size: 50px;
+  font-size: 40px;
 }
 
 nav ul li a:hover {
@@ -39,6 +39,7 @@ border-radius: 6px;
 
 h1 {
   padding: 0;
+  padding-top: 15px;
   margin: 0;
     text-align: center;
     font-family:"Rubik Mono One", monospace;
@@ -55,9 +56,8 @@ h3 {
 /*Accordian*/
 .button {
     background-color: #f5f5f2;
-    font-family:;
-    width: 100%;
-    height: 70px;
+    font-family: "Rubik Mono One", monospace;
+    height: 80px;
     border-radius: 20px;
     border-color: #cecec8;
     color: #000000;
@@ -65,7 +65,7 @@ h3 {
     width: 100%;
     padding-left: 15px;
     text-align: left;
-    font-size: large;
+    font-size: medium;
     display: block;
   }
 
@@ -78,7 +78,10 @@ h3 {
   }
   
   .panel {
-    padding: 20px;
+    padding: 0;
+    margin: 10px;
+    font-size: x-large;
+    font-family: "Gloria Hallelujah";
   }
 
   .panel-active {
