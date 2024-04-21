@@ -1,27 +1,53 @@
 
 /*Nav*/
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+nav {
+  background-color: #eeecd9;
+  padding: 10px;
+  border-bottom: #000000;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 50px;
+}
+
+nav ul li a {
+  color: rgb(28, 32, 1);
+  text-decoration: none;
+  font-family: "Gloria Hallelujah";
+  font-size: 50px;
+}
+
+nav ul li a:hover {
+  text-decoration: solid;
+  color: #d2cb98;
 }
 
 /*Hero*/
 .header-container {
-background-color: #f5f4e8;
+background-color: #f5f4ed;
 min-height: 250px;
 border-radius: 6px;
 }
 
 h1 {
+  padding: 0;
+  margin: 0;
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: xxx-large;
+    font-family:"Rubik Mono One", monospace;
+    font-size: 90px;
 }
 
 h3 {
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Rubik Mono One", monospace;
     font-size: x-large;
 }
 /*Cards*/
@@ -29,7 +55,7 @@ h3 {
 /*Accordian*/
 .button {
     background-color: #f5f5f2;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:;
     width: 100%;
     height: 70px;
     border-radius: 20px;
