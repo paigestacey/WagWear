@@ -128,8 +128,11 @@ h5 {
   }
 
 .iframe {
-    flex-flow: row wrap;
-    float: right;
+  position: relative;
+  width: 100%;
+  padding-bottom: 20%;
+  height: 0;
+  overflow: hidden;
 }
 
   /* Media Querys*/
