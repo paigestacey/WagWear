@@ -1,16 +1,22 @@
 
 /*Nav*/
+
+#WWlogo {
+float: left;
+flex: auto;
+}
+
 nav {
   background-color: #eeecd9;
-  padding: 20px;
-  border-bottom: #000000;
-  margin: 0;
+  min-height: 120px;
+  padding: 10px;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 1%;
+  padding-top: 3%;
   text-align: right;
 }
 
@@ -24,7 +30,7 @@ nav ul li a {
   color: rgb(28, 32, 1);
   text-decoration: none;
   font-family: "Rubik Mono One";
-  font-size: 30px;
+  font-size: 40px;
 }
 
 nav ul li a:hover {
