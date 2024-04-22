@@ -181,7 +181,12 @@ h5 {
     font-family: "Gloria Hallelujah";
     font-size: 60px;
   }
-  
+
+  h2:hover {
+   text-decoration: solid;
+   color: #d2cb98;
+  }
+ 
   .footer-content {
   padding-left: 25px;
   font-size: medium;
