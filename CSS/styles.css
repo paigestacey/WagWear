@@ -179,12 +179,12 @@ h5 {
     max-width: 100%;
     margin: 20px;
     max-height: auto;
+    display: flex;
   }
 
   .dog-card {
     border: 6px solid #000000;
     border-radius: 30px;
-    overflow: hidden;
     max-width: 50%;
     margin: 20px;
     max-height: auto;
@@ -195,21 +195,21 @@ h5 {
   #getDogBreedBtn {
    background-color: #ececb9;
     font-family: "Gloria Hallelujah";
-    height: 40px;
     border-radius: 20px;
     border-color: #151515;
     cursor: pointer;
-    width: 18%;
-    text-align: center;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    padding-left: 20px;
     font-size: large;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    display: flex;
   }
 
   #breedImage {
     max-width: 100%;
     border-radius: 5px;
-    display: none; 
+    display: flex; 
     padding: 0;
   }
 
@@ -266,17 +266,31 @@ h5 {
 
   /*Mobile*/
   @media screen and (max-width: 768px) {
+
    .card-container {
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    justify-content: center; 
    }
    .card {
     flex: 0 0 calc(50% - 20px);
+   
    }
+   .dog-card {
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+
+   .dog-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: auto;
+   }
+
+
   }  
     
     /*tablet*/
     @media screen and (min-width: 768px) and (max-width: 1440px) {
-    }
     
     /*Desktop*/
     @media screen and (min-width: 1440px) {
